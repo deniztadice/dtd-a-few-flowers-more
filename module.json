@@ -1,0 +1,71 @@
+{
+  "id": "dtd-a-few-flowers-more",
+  "title": "PF2e A Few Flowers More | Ще кілька квітів 🪻🇺🇦 | DTD",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dft",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Роками піратський капітан Ренлок плавав узбережжям Аркадійського океану від Кайданів на півдні до вод Варісії на півночі в пошуках здобичі та пригод, аж поки одного дня його удача не відвернулася від нього. Корабель був захоплений флотом, а капітан і його команда були заарештовані та ув'язнені. Через роки, після смерті капітана у в'язниці, четверо звільнених членів екіпажу отримують послання від покійного капітана, в якому він вказує їм на скарби, які той сховав для них.",
+  "styles": [
+    "styles/styles.css",
+    "styles/welcome.css"
+  ],
+  "scripts": [
+    "scripts/launcher.js"
+  ],
+  "authors": [
+    {
+      "name": "Deniz Köse",
+      "url": "https://deniztadice.xyz",
+      "discord": "denizkose",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "she-kilka-kvitiv",
+      "label": "Ще кілька квітів 🪻",
+      "path": "packs/she-kilka-kvitiv",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Пригоди від DTD",
+      "sorting": "a",
+      "color": "#001b36",
+      "packs": [
+        "she-kilka-kvitiv"
+      ],
+      "folders": []
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "./modules/dtd-a-few-flowers-more/images/cover.webp",
+      "thumbnail": "./modules/dtd-a-few-flowers-more/images/cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "manifest": "https://github.com/deniztadice/dtd-a-few-flowers-more/releases/latest/download/module.json",
+  "download": "https://github.com/deniztadice/dtd-a-few-flowers-more/releases/latest/download/module.zip",
+  "url": "https://github.com/deniztadice/dtd-a-few-flowers-more"
+}

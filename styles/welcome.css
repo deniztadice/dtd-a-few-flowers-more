@@ -1,0 +1,193 @@
+@media (width <=700px) {
+  .welcome-info,
+  .welcome-side {
+    width: auto;
+  }
+
+  .welcome-heading img {
+    width: 64px;
+    height: 64px;
+  }
+
+  h1.welcome-h1 {
+    font-size: 1em;
+  }
+
+  ul.menu {
+    line-height: 2em;
+  }
+}
+@media (width > 700px) {
+  .welcome-info {
+    width: 60%;
+  }
+
+  .welcome-side {
+    float: right;
+    width: 38%;
+  }
+
+  h1.welcome-h1 {
+    font-size: 2em;
+  }
+
+  ul.menu {
+    line-height: 2em;
+    align-content: center;
+  }
+}
+
+.welcome-heading img {
+    box-sizing: unset;
+    border: unset;
+    border-radius: unset;
+    max-width: unset;
+}
+
+.welcome-main section p a.content-link {
+  background: #001b36;
+  color: wheat;
+  border: 1px solid #001b36;
+}
+
+.welcome-main section p a.content-link:hover {
+  background: wheat;
+  color: #001b36;
+  border: 1px solid #001b36;
+}
+
+.welcome-main section p a.content-link::before {
+    content: none;
+}
+
+.welcome-main {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  font-family: "FixelText";
+  background-color: #001b36;
+  height: auto;
+}
+
+.welcome-main section {
+  padding: 4px 10px;
+  margin-bottom: 20px;
+}
+
+.welcome-main section a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #001b36;
+}
+
+.welcome-main section a:hover::before {
+  content: "⏩ ";
+}
+
+.welcome-main section a::before {
+  content: "🌐";
+}
+.welcome-main .welcome-side a::before {
+  content: none;
+}
+
+.welcome-info {
+  display: flex;
+  flex-flow: column;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+.welcome-info > p {
+  line-height: 1.5;
+  margin: 10px 4px;
+  text-wrap: balance;
+}
+
+.welcome-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1.welcome-h1 {
+  font-weight: 900;
+  color: white;
+  border: unset;
+  text-align: unset;
+  background-color: unset;
+}
+
+.welcome-side {
+  border-radius: 4px;
+  background-color: rgb(205, 255, 244);
+  padding: 0 10px;
+}
+.welcome-side h5 {
+  font-weight: 600;
+}
+
+.welcome-side > ul > li {
+  line-height: 2;
+}
+
+li.list-version-adventure::marker {
+  content: "ℹ️ ";
+}
+li.list-release::marker {
+  content: "📅 ";
+}
+li.list-update::marker {
+  content: "🆙 ";
+}
+li.list-game::marker {
+  content: "🎲 ";
+}
+li.list-foundry::marker {
+  content: "🔨 ";
+}
+li.list-discord::marker {
+  content: "🤖 ";
+}
+li.list-telegram::marker {
+  content: "✈️ ";
+}
+
+ul.menu {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+ul.menu li a {
+  background-color: white;
+  color: #001b36;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-right: 1em;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+ul.menu li a::before {
+  content: none;
+}
+
+ul.menu li a:hover::before {
+  content: none;
+}
+
+ul.menu li a:hover {
+  background-color: #001224;
+  color: wheat;
+  padding: 4px 6px;
+  border: 2px solid wheat;
+}
+
+ul.menu li:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,35 @@
+::-webkit-scrollbar-thumb {
+    border-color: #317728;
+}
+::-webkit-scrollbar-thumb {
+    background: #004b0a;
+}
+
+.sheet.journal-entry .pages-list .directory-item.active:first-of-type,
+.sheet.journal-entry .pages-list .directory-item.active + :not(.active),
+.sheet.journal-entry .pages-list .directory-item:not(.active) + .active,
+.sheet.journal-entry .pages-list .directory-item.active:last-of-type {
+    border-top: 1px solid #317728;
+}
+
+.sheet.journal-entry .pages-list .directory-item.active:last-of-type {
+    border-bottom: 1px solid #317728;
+}
+
+.directory .directory-item.context,
+.directory .directory-item.active {
+  border-color: #317728;
+}
+
+.directory .directory-item:is(.context, .active)::after {
+    border: 1px solid #317728;
+}
+
+.sheet.journal-entry .journal-sidebar {
+    background: #03200354;
+}
+
+.sheet.journal-entry .pages-list .directory-item {
+    font-family: 'FixelText';
+    font-weight: 600;
+}
